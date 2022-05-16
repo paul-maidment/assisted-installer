@@ -4,10 +4,8 @@ go 1.16
 
 require (
 	github.com/Microsoft/go-winio v0.4.15-0.20200113171025-3fe6c5262873 // indirect
-	github.com/PuerkitoBio/rehttp v1.0.0
+	github.com/PuerkitoBio/rehttp v1.1.0
 	github.com/ReneKroon/ttlcache/v2 v2.9.0
-	github.com/aybabtme/iocontrol v0.0.0-20150809002002-ad15bcfc95a0 // indirect
-	github.com/benbjohnson/clock v1.0.3 // indirect
 	github.com/coreos/ignition/v2 v2.10.1
 	github.com/go-logr/logr v0.4.0 // indirect
 	github.com/go-openapi/runtime v0.19.28
@@ -31,7 +29,7 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/thoas/go-funk v0.8.0
 	github.com/vincent-petithory/dataurl v0.0.0-20191104211930-d1553a71de50
-	golang.org/x/net v0.0.0-20210428140749-89ef3d95e781
+	golang.org/x/net v0.0.0-20210510120150-4163338589ed
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.21.1

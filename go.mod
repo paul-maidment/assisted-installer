@@ -15,9 +15,11 @@ require (
 	github.com/go-openapi/swag v0.19.15
 	github.com/golang/mock v1.5.0
 	github.com/google/uuid v1.3.0
+	github.com/googleapis/gnostic v0.5.1 // indirect
 	github.com/hashicorp/go-version v1.3.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/metal3-io/baremetal-operator v0.0.0
+	github.com/moby/term v0.0.0-20201216013528-df9cb8a40635 // indirect
 	github.com/onsi/ginkgo v1.16.4
 	github.com/onsi/gomega v1.13.0
 	github.com/openshift/api v3.9.1-0.20191111211345-a27ff30ebf09+incompatible
@@ -26,15 +28,17 @@ require (
 	github.com/openshift/client-go v0.0.0-20201020074620-f8fd44879f7c
 	github.com/openshift/machine-api-operator v0.2.1-0.20201002104344-6abfb5440597
 	github.com/operator-framework/api v0.8.0
-	github.com/operator-framework/operator-lifecycle-manager v0.18.0
+	github.com/operator-framework/operator-lifecycle-manager v3.11.0+incompatible
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.8.1
 	github.com/thoas/go-funk v0.8.0
 	github.com/vincent-petithory/dataurl v0.0.0-20191104211930-d1553a71de50
 	golang.org/x/net v0.0.0-20210428140749-89ef3d95e781
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e // indirect
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.21.1
+	k8s.io/apiextensions-apiserver v0.20.6 // indirect
 	k8s.io/apimachinery v0.21.1
 	k8s.io/client-go v12.0.0+incompatible
 	sigs.k8s.io/controller-runtime v0.9.0

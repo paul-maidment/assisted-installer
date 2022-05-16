@@ -119,7 +119,7 @@ func (i *installer) InstallNode() error {
 
 	i.UpdateHostInstallProgress(models.HostStageInstalling, i.Config.Role)
 	var ignitionPath string
-	if i.HighAvailabilityMode == models.ClusterHighAvailabilityModeNone {
+	if i.HighAvailabilityMode == models.ClusterHighAvailabilityModeNone && i.Role != string(models.HostRoleWorker) {
 		i.log.Info("Installing single node openshift")
 		ignitionPath, err = i.createSingleNodeMasterIgnition()
 		if err != nil {
